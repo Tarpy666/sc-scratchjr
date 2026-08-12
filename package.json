@@ -1,0 +1,22 @@
+{
+  "name": "@counted/sc-scratchjr",
+  "version": "0.1.0",
+  "description": "Tablet kernel for ages 5-7: icon blocks, character pads, timed sequences.",
+  "stack": "frontend",
+  "family": "counted",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "license": "MIT"
+}
